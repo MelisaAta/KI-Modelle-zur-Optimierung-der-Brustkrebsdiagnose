@@ -38,7 +38,8 @@ Die Architektur wurde im Rahmen einer wissenschaftlichen Arbeit zur Verbesserung
 
 ## Verwendeter Datensatz
 
-Zum Erstellen der Modelle wurde der Datensatz **Advanced-MRI-Breast-Lesions** 🔗 [https://doi.org/10.7937/C7X1-YN57](https://doi.org/10.7937/C7X1-YN57) von der öffentlichen Datenbank **The Cancer Imaging Archive** verwendet.
+Für die Nutzung des Skriptes wurde der Datensatz **Advanced-MRI-Breast-Lesions** 🔗 [https://doi.org/10.7937/C7X1-YN57](https://doi.org/10.7937/C7X1-YN57) von der öffentlichen Datenbank **The Cancer Imaging Archive** verwendet.
+Die größe des Datensatzes beträgt 645,62 GB.
 
 ---
 
@@ -47,18 +48,20 @@ Zum Erstellen der Modelle wurde der Datensatz **Advanced-MRI-Breast-Lesions** �
 Die erzeugten Daten werden in folgende Verzeichnisse gespeichert und sollten bei Verwendung an eigene Anforderungen angepasst werden.
 
 **Relevante Pfade:**
-- `EXCEL_PATH` = `/mnt/e/Advanced-MRI-Breast-Lesions/Advanced-MRI-Breast-Lesions-DA-Clinical-Sep2024.xlsx`  
-- `DICOM_FOLDER` = `/mnt/e/Advanced-MRI-Breast-Lesions/DICOM Images/manifest-1713182663002/Advanced-MRI-Breast-Lesions`  
+- `EXCEL_PATH` = `/.../Advanced-MRI-Breast-Lesions/Advanced-MRI-Breast-Lesions-DA-Clinical-Sep2024.xlsx`  
+- `DICOM_FOLDER` = `/.../Advanced-MRI-Breast-Lesions/DICOM Images/manifest-1713182663002/Advanced-MRI-Breast-Lesions`  
 
 **Erzeugte Daten:**
-- `INTERMEDIATE_FOLDER` = `/mnt/e/Advanced-MRI-Breast-Lesions/data/intermediate_caches`  
-- `FINAL_CACHE_FILE` = `/mnt/e/Advanced-MRI-Breast-Lesions/data/geladene_Daten.pkl`  
-- `FINAL_SUMMARY_CSV` = `/mnt/e/Advanced-MRI-Breast-Lesions/data/Datenzusammenfassung.csv`  
-- `SPLIT_INDICES_FILE` = `/mnt/e/Advanced-MRI-Breast-Lesions/data/patient_split_indices.pkl`
+- `INTERMEDIATE_FOLDER` = `/.../data/intermediate_caches`  
+- `FINAL_CACHE_FILE` = `/.../data/geladene_Daten.pkl`  
+- `FINAL_SUMMARY_CSV` = `/.../data/Datenzusammenfassung.csv`  
+- `SPLIT_INDICES_FILE` = `/.../data/patient_split_indices.pkl`
 
 **Gespeicherte Plots und Modelle:**
 - Modelle, Trainingsverlauf, Checkpoints, History: `Linux/Ubuntu/home/melisa/projects/tf217/results`  
 - Plots (AUC, Konfusionsmatrix, visueller Maskenvergleich): `Linux/Ubuntu/home/melisa/projects/tf217/plots`
+
+Die **Plots, Modelle, etc.** werden lokal im Ordner vom ausgeführten Skript gespeichert, alles andere muss, wie schon erwähnt, an die eigenen verwendeten Ordner angepasst werden.
 
 ---
 
