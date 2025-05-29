@@ -26,7 +26,7 @@ Die Architektur wurde im Rahmen einer wissenschaftlichen Arbeit zur Verbesserung
 
 ## Python-Umgebung
 
-- Das Skript wurde in einem Jypiter-Notebook mit der Python Version **3.11.11** in einer **WSL (Ubuntu)-Umgebung** erstellt und ausgeführt.
+- Das Skript wurde in einem Jupyter-Notebook mit der Python Version **3.11.11** in einer **WSL (Ubuntu)-Umgebung** erstellt und ausgeführt.
 Solange die Anforderungen an die **Requirements** und die korrekte **Version von Python** verwendet, kann der Code ohne Probleme ausgeführt werden.
 
   Die benötigten Bibliotheken befinden sich in **requirement-txt**.
