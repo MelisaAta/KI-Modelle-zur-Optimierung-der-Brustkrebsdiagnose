@@ -69,7 +69,7 @@ Die **Plots, Modelle, etc.** werden lokal im Ordner vom ausgeführten Skript ges
 
 Der Code befindet sich im GitHub-Repository unter dem Namen: **`BA_Code - Version EfficientNetB0 + Attention U-Net.ipynb`**
 
-Es befindet sich eine weiterer Code namens **`Vergleich der DICOM-Bilder`**, der lediglich zum Vergleich der verarbeiteten und unverarbeitetn DICOM-Bilder einer beliebigen Patientin dient.
+Es befindet sich eine weiterer Code namens **`Vergleich der DICOM-Bilder.ipynb`**, der lediglich zum Vergleich der verarbeiteten und unverarbeitetn DICOM-Bilder einer beliebigen Patientin dient.
 
 ---
 
